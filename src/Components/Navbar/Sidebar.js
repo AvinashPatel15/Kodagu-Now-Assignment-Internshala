@@ -10,7 +10,7 @@ const Sidebar = () => {
         position={"fixed"}
         top={"71px"}
         zIndex={99}
-        display={"flex"}
+        display={{base:"none",md:"flex"}}
         flexDirection={"column"}
         justifyContent={"space-between"}
         // alignItems={"center"}

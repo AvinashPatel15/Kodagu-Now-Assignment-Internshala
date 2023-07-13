@@ -9,6 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import ProfileButton from "./ProfileButton";
+import SmallScreenSidebar from "./SmallScreenSidebar";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,7 @@ const Navbar = () => {
       >
         {/* Slider Button */}
         <Box
-          display={"flex"}
+          display={{ base: "none", md: "flex" }}
           justifyContent={"center"}
           alignItems={"center"}
           backgroundColor={"white"}
@@ -53,6 +54,19 @@ const Navbar = () => {
               fill="#C3CAD9"
             />
           </svg>
+        </Box>
+
+        <Box
+          display={{ base: "flex", md: "none" }}
+          justifyContent={"center"}
+          alignItems={"center"}
+          backgroundColor={"white"}
+          padding={"9px"}
+          borderRadius={"50%"}
+          boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+          cursor={"pointer"}
+        >
+          <SmallScreenSidebar />
         </Box>
 
         {/* Constructor */}
