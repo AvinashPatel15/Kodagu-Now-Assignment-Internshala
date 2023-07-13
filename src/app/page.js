@@ -1,5 +1,5 @@
 "use client";
-import HomePage from "@/Components/Home/HomePage";
+import HomePage from "@/Pages/HomePage";
 import Navbar from "@/Components/Navbar/Navbar";
 import Sidebar from "@/Components/Navbar/Sidebar";
 

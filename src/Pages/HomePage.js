@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import Navbar from "../Navbar/Navbar";
-import Sidebar from "../Navbar/Sidebar";
-import ProfileSection from "./ProfileSection";
-import TodoSection from "./TodoSection";
+import Navbar from "../Components/Navbar/Navbar";
+import Sidebar from "../Components/Navbar/Sidebar";
+import ProfileSection from "../Components/Home Page/ProfileSection";
+import TodoSection from "../Components/Home Page/TodoSection";
 
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
             <ProfileSection />
           </Box>
           {/* Todo Section */}
-          <Box width={{ base: "100%", lg: "70%" }} border={"1px solid blue"}>
+          <Box width={{ base: "100%", lg: "70%" }}>
             <TodoSection />
           </Box>
         </Box>
