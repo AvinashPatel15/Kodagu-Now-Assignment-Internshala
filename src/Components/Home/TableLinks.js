@@ -1,3 +1,4 @@
+"use client";
 import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
 import React from "react";
 

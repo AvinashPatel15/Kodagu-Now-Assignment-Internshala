@@ -1,3 +1,4 @@
+"use client";
 import { Avatar, Box, Wrap, WrapItem } from "@chakra-ui/react";
 import React from "react";
 
@@ -10,7 +11,7 @@ const Sidebar = () => {
         position={"fixed"}
         top={"71px"}
         zIndex={99}
-        display={{base:"none",md:"flex"}}
+        display={{ base: "none", md: "flex" }}
         flexDirection={"column"}
         justifyContent={"space-between"}
         // alignItems={"center"}

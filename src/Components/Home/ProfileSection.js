@@ -1,5 +1,5 @@
 "use client";
-import { Avatar, Box, Grid, GridItem, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import React from "react";
 import Profile from "./Profile";
 import TableLinks from "./TableLinks";

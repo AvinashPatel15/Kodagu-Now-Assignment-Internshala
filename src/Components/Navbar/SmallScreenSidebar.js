@@ -1,25 +1,18 @@
 "use client";
 import {
-  Avatar,
   Box,
-  Button,
   Drawer,
   DrawerBody,
   DrawerCloseButton,
   DrawerContent,
-  DrawerFooter,
-  DrawerHeader,
   DrawerOverlay,
   Input,
   InputGroup,
   InputLeftElement,
   InputRightElement,
-  Wrap,
-  WrapItem,
   useDisclosure,
 } from "@chakra-ui/react";
 import React, { useRef } from "react";
-import Sidebar from "./Sidebar";
 
 const SmallScreenSidebar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

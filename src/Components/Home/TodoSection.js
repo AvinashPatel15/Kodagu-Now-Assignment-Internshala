@@ -1,7 +1,13 @@
+"use client";
+import { Box } from "@chakra-ui/react";
 import React from "react";
 
 const TodoSection = () => {
-  return <div>TodoSection</div>;
+  return (
+    <>
+      <Box></Box>
+    </>
+  );
 };
 
 export default TodoSection;
