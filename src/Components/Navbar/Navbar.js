@@ -16,9 +16,8 @@ const Navbar = () => {
     <>
       <Box
         width={"100%"}
-        position={"fixed"}
+        position={"sticky"}
         top={0}
-        left={0}
         zIndex={100}
         paddingInline={4}
         paddingBlock={3}

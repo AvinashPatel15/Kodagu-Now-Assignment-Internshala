@@ -6,7 +6,7 @@ const Sidebar = () => {
     <>
       <Box
         width={"90px"}
-        height={"90vh"}
+        height={"89vh"}
         position={"fixed"}
         top={"71px"}
         zIndex={99}
