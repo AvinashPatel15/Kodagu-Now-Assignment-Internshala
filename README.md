@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to NewWave Fashion <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+---
 
-## Getting Started
+**Introduction**
+---
+This is my PRD B-23 Project at Masai School's Full Stack Web Development Course. I'm currently at the PRD B-23 Batch where we need to make projects as per mastery based progression environment of Masai School after learnig certain tech-tools and in the hole course Unit 1 to 6.
 
-First, run the development server:
+<h3>About My Site</h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+NewWave Fashion is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, NewWave aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Tech-stack used
+  
+   ```
+   Frontend : React JS, Chakra-UI
+   
+   State Management : Redux
+   
+   Backend : Node JS, Express JS
+   
+   DataBase   : MongoDB, Mongoose
+   
+   Deployment : Vercel
+   ```
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ | Serial No            | Feature                                                              |
+| ----------------- | ------------------------------------------------------------------ |
+| 1 | User signup and Login |
+| 2 | Products Page with Filter and Sort Functionalities |
+| 3 | Add to cart feature |
+| 4 | Dynamic cart page using Redux |
+| 5 | Admin page with many features|
+| 6 | Dummy payment using UPI-Payment |
