@@ -3,8 +3,8 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 import Navbar from "../Components/Navbar/Navbar";
 import Sidebar from "../Components/Navbar/Sidebar";
-import ProfileSection from "../Components/Home Page/ProfileSection";
-import TodoSection from "../Components/Home Page/TodoSection";
+import ProfileSection from "../Components/Home Page/Profile Section/ProfileSection";
+import TodoSection from "../Components/Home Page/Todo Section/TodoSection";
 
 const HomePage = () => {
   return (

@@ -267,13 +267,13 @@ const TodoNavbar = () => {
 
       {/* Mobile Screen Todo Navbar */}
       <Box
-        paddingInline={10}
-        paddingBlock={4}
+        paddingInline={5}
+        paddingBlock={2}
         border={"2px solid #EDEFF2"}
         borderTopLeftRadius={30}
         borderTopRightRadius={30}
         display={{ base: "flex", lg: "none" }}
-        justifyContent={"space-between"}
+        justifyContent={"center"}
         alignItems={"center"}
       >
         <Box
