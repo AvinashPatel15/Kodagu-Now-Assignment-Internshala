@@ -14,13 +14,14 @@ import React from "react";
 const TodoNavbar = () => {
   return (
     <>
+      {/* Dasktop Screen Todo Navbar */}
       <Box
         paddingInline={10}
         paddingBlock={4}
         border={"2px solid #EDEFF2"}
         borderTopLeftRadius={30}
         borderTopRightRadius={30}
-        display={"flex"}
+        display={{ base: "none", lg: "flex" }}
         justifyContent={"space-between"}
         alignItems={"center"}
       >
@@ -261,6 +262,139 @@ const TodoNavbar = () => {
               boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
             />
           </InputGroup>
+        </Box>
+      </Box>
+
+      {/* Mobile Screen Todo Navbar */}
+      <Box
+        paddingInline={10}
+        paddingBlock={4}
+        border={"2px solid #EDEFF2"}
+        borderTopLeftRadius={30}
+        borderTopRightRadius={30}
+        display={{ base: "flex", lg: "none" }}
+        justifyContent={"space-between"}
+        alignItems={"center"}
+      >
+        <Box
+          display={"flex"}
+          justifyContent={"center"}
+          alignItems={"center"}
+          gap={7}
+        >
+          {/* Left Arrow */}
+          <Box
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            backgroundColor={"white"}
+            padding={"9px"}
+            borderRadius={"50%"}
+            boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+            cursor={"pointer"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="29"
+              viewBox="0 0 28 29"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.073 17.7316L13.4517 14.1103L17.073 10.489C17.437 10.125 17.437 9.53698 17.073 9.17298C16.8986 8.99821 16.6619 8.89999 16.415 8.89999C16.1681 8.89999 15.9314 8.99821 15.757 9.17298L11.473 13.457C11.109 13.821 11.109 14.409 11.473 14.773L15.757 19.057C16.121 19.421 16.709 19.421 17.073 19.057C17.4277 18.693 17.437 18.0956 17.073 17.7316Z"
+                fill="#C3CAD9"
+              />
+            </svg>
+          </Box>
+
+          {/* Board */}
+          <Box
+            display={"flex"}
+            gap={2}
+            justifyContent={"center"}
+            alignItems={"center"}
+            cursor={"pointer"}
+            borderBottom={"2px solid blue"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="31"
+              viewBox="0 0 30 31"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7 16.5H13C13.55 16.5 14 16.05 14 15.5V7.5C14 6.95 13.55 6.5 13 6.5H7C6.45 6.5 6 6.95 6 7.5V15.5C6 16.05 6.45 16.5 7 16.5ZM7 24.5H13C13.55 24.5 14 24.05 14 23.5V19.5C14 18.95 13.55 18.5 13 18.5H7C6.45 18.5 6 18.95 6 19.5V23.5C6 24.05 6.45 24.5 7 24.5ZM17 24.5H23C23.55 24.5 24 24.05 24 23.5V15.5C24 14.95 23.55 14.5 23 14.5H17C16.45 14.5 16 14.95 16 15.5V23.5C16 24.05 16.45 24.5 17 24.5ZM16 7.5V11.5C16 12.05 16.45 12.5 17 12.5H23C23.55 12.5 24 12.05 24 11.5V7.5C24 6.95 23.55 6.5 23 6.5H17C16.45 6.5 16 6.95 16 7.5Z"
+                fill="#3361FF"
+              />
+            </svg>
+            <Text
+              fontSize={"12px"}
+              fontWeight={700}
+              color={"#3361FF"}
+              fontStyle={"normal"}
+            >
+              Boards
+            </Text>
+          </Box>
+
+          {/* Right Arrow */}
+          <Box
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            backgroundColor={"white"}
+            padding={"9px"}
+            borderRadius={"50%"}
+            boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+            cursor={"pointer"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="29"
+              viewBox="0 0 28 29"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.473 17.7317L15.0943 14.1103L11.473 10.489C11.2982 10.3146 11.2 10.0779 11.2 9.83099C11.2 9.58411 11.2982 9.34737 11.473 9.17299C11.837 8.80899 12.425 8.80899 12.789 9.17299L17.073 13.457C17.437 13.821 17.437 14.409 17.073 14.773L12.789 19.057C12.425 19.421 11.837 19.421 11.473 19.057C11.1183 18.693 11.109 18.0957 11.473 17.7317Z"
+                fill="#C3CAD9"
+              />
+            </svg>
+          </Box>
+
+          {/* Search Button */}
+          <Box
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            backgroundColor={"white"}
+            padding={"9px"}
+            borderRadius={"50%"}
+            boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+            cursor={"pointer"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="31"
+              viewBox="0 0 30 31"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.5006 17.5006H17.7106L17.4306 17.2306C18.6306 15.8306 19.2506 13.9206 18.9106 11.8906C18.4406 9.11063 16.1206 6.89063 13.3206 6.55063C9.09063 6.03063 5.53063 9.59063 6.05063 13.8206C6.39063 16.6206 8.61063 18.9406 11.3906 19.4106C13.4206 19.7506 15.3306 19.1306 16.7306 17.9306L17.0006 18.2106V19.0006L21.2506 23.2506C21.6606 23.6606 22.3306 23.6606 22.7406 23.2506C23.1506 22.8406 23.1506 22.1706 22.7406 21.7606L18.5006 17.5006ZM12.5006 17.5006C10.0106 17.5006 8.00063 15.4906 8.00063 13.0006C8.00063 10.5106 10.0106 8.50063 12.5006 8.50063C14.9906 8.50063 17.0006 10.5106 17.0006 13.0006C17.0006 15.4906 14.9906 17.5006 12.5006 17.5006Z"
+                fill="#C3CAD9"
+              />
+            </svg>
+          </Box>
         </Box>
       </Box>
     </>

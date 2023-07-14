@@ -6,9 +6,7 @@ import TodoNavbar from "./TodoNavbar";
 const TodoSection = () => {
   return (
     <>
-      <Box
-        width={"100%"}
-      >
+      <Box width={"100%"}>
         {/* Todo Navbar */}
         <TodoNavbar />
       </Box>

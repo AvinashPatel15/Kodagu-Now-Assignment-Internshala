@@ -15,11 +15,14 @@ const HomePage = () => {
         {/* Main Div */}
         <Box width={"100%"} display={{ base: "block", lg: "flex" }}>
           {/* Profile Section */}
-          <Box width={{ base: "100%", lg: "30%" }}>
+          <Box width={{ base: "100%", lg: "25%" }}>
             <ProfileSection />
           </Box>
           {/* Todo Section */}
-          <Box width={{ base: "100%", lg: "70%" }}>
+          <Box
+            width={{ base: "95%", lg: "75%" }}
+            margin={{ base: "auto", lg: 5 }}
+          >
             <TodoSection />
           </Box>
         </Box>
