@@ -1,5 +1,5 @@
 "use client";
-import { Box, Text } from "@chakra-ui/react";
+import { Avatar, Box, Text } from "@chakra-ui/react";
 import React from "react";
 
 const ReviewTodo = () => {
@@ -22,7 +22,7 @@ const ReviewTodo = () => {
           justifyContent={"space-between"}
           alignItems={"center"}
           gap={6}
-          width={{base:"300px",lg:"230px"}}
+          width={{ base: "300px", lg: "230px" }}
           height={"60px"}
         >
           <Box
@@ -98,6 +98,120 @@ const ReviewTodo = () => {
                 />
               </svg>
             </Box>
+          </Box>
+        </Box>
+
+        <Box width={{ base: "300px", lg: "230px" }} marginTop={3}>
+          <Box
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            gap={4}
+          >
+            {/* Box 1 */}
+
+            <Box
+              borderRadius={10}
+              boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+              backgroundColor={"white"}
+              display={"flex"}
+              flexDirection={"column"}
+              justifyContent={"center"}
+              gap={3}
+              padding={4}
+              width={"100%"}
+            >
+              <Box
+                display={"flex"}
+                justifyContent={"space-between"}
+                alignItems={"center"}
+              >
+                <Box width={"100%"}>
+                  <Text
+                    color={"#ADB8CC"}
+                    fontSize={"10px"}
+                    fontStyle={"normal"}
+                    fontWeight={700}
+                  >
+                    Space Tasks 2
+                  </Text>
+                </Box>
+
+                <Box>
+                  <Avatar
+                    name="Segun Adebayo"
+                    src="https://bit.ly/sage-adebayo"
+                    width={"20px"}
+                    height={"20px"}
+                  />
+                </Box>
+              </Box>
+
+              <Box>
+                <Text
+                  color={"#6B7A99"}
+                  fontSize={"12px"}
+                  fontStyle={"normal"}
+                  fontWeight={700}
+                >
+                  Astronomy Or Astrolo
+                </Text>
+              </Box>
+            </Box>
+
+            {/* Box 2 */}
+
+            <Box
+              borderRadius={10}
+              boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+              backgroundColor={"white"}
+              display={"flex"}
+              flexDirection={"column"}
+              justifyContent={"center"}
+              gap={3}
+              padding={4}
+              width={"100%"}
+            >
+              <Box
+                display={"flex"}
+                justifyContent={"space-between"}
+                alignItems={"center"}
+              >
+                <Box width={"100%"}>
+                  <Text
+                    color={"#ADB8CC"}
+                    fontSize={"10px"}
+                    fontStyle={"normal"}
+                    fontWeight={700}
+                  >
+                    Space Tasks 2
+                  </Text>
+                </Box>
+
+                <Box>
+                  <Avatar
+                    name="Kent Dodds"
+                    src="https://bit.ly/kent-c-dodds"
+                    width={"20px"}
+                    height={"20px"}
+                  />
+                </Box>
+              </Box>
+
+              <Box>
+                <Text
+                  color={"#6B7A99"}
+                  fontSize={"12px"}
+                  fontStyle={"normal"}
+                  fontWeight={700}
+                >
+                  Astronomy Binoculars A Great
+                </Text>
+              </Box>
+            </Box>
+
+            {/* Box 3 */}
           </Box>
         </Box>
       </Box>

@@ -1,5 +1,5 @@
 "use client";
-import { Box, Text } from "@chakra-ui/react";
+import { Avatar, Box, Text } from "@chakra-ui/react";
 import React from "react";
 
 const DoneTodo = () => {
@@ -97,6 +97,57 @@ const DoneTodo = () => {
                   fill="#C3CAD9"
                 />
               </svg>
+            </Box>
+          </Box>
+        </Box>
+
+        <Box width={{ base: "300px", lg: "230px" }} marginTop={3}>
+          <Box
+            borderRadius={10}
+            boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
+            backgroundColor={"white"}
+            display={"flex"}
+            flexDirection={"column"}
+            justifyContent={"center"}
+            gap={3}
+            padding={4}
+            width={"100%"}
+          >
+            <Box
+              display={"flex"}
+              justifyContent={"space-between"}
+              alignItems={"center"}
+            >
+              <Box width={"100%"}>
+                <Text
+                  color={"#ADB8CC"}
+                  fontSize={"10px"}
+                  fontStyle={"normal"}
+                  fontWeight={700}
+                >
+                  Space Tasks 2
+                </Text>
+              </Box>
+
+              <Box>
+                <Avatar
+                  name="Kent Dodds"
+                  src="https://bit.ly/kent-c-dodds"
+                  width={"20px"}
+                  height={"20px"}
+                />
+              </Box>
+            </Box>
+
+            <Box>
+              <Text
+                color={"#6B7A99"}
+                fontSize={"12px"}
+                fontStyle={"normal"}
+                fontWeight={700}
+              >
+                Copper Canyon
+              </Text>
             </Box>
           </Box>
         </Box>

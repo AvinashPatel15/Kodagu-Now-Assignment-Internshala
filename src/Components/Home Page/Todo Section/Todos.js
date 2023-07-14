@@ -14,7 +14,7 @@ const Todos = () => {
         display={"flex"}
         gap={{ base: "10px", lg: "17px" }}
         justifyContent={"flex-start"}
-        alignItems={"center"}
+        alignItems={"flex-start"}
         paddingInline={{ base: 5, lg: 10 }}
         paddingBlock={{ base: 4, lg: 5 }}
         border={"2px solid #EDEFF2"}
