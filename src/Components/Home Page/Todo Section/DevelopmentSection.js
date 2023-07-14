@@ -11,7 +11,7 @@ const DevelopmentSection = () => {
         borderRadius={30}
         boxShadow={"0px 2px 5px 0px rgba(38, 51, 77, 0.03)"}
         backgroundColor={"white"}
-        display={"flex"}
+        display={{ base: "none", lg: "flex" }}
         flexDirection={"column"}
         justifyContent={"center"}
         gap={9}

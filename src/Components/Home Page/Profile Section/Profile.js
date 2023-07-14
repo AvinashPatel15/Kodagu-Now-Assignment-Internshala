@@ -68,10 +68,10 @@ const Profile = () => {
       <Box
         display={"flex"}
         flexDirection={"column"}
-        gap={4}
+        gap={7}
         justifyContent={"center"}
         alignItems={"center"}
-        marginTop={2}
+        marginTop={5}
       >
         {/* Avatar */}
         <Box>

@@ -6,7 +6,7 @@ const SocialLinks = () => {
   return (
     <>
       <Box
-        marginTop={20}
+        marginTop={5}
         display={"flex"}
         gap={5}
         justifyContent={"center"}
